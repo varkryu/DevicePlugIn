@@ -1,0 +1,28 @@
+<!DOCTYPE html> 
+<html> 
+    <head> 
+        <title>Compass Example</title> 
+        <script type="text/javascript" charset="utf-8" src="cordova.js"></script> 
+        <link rel="stylesheet" type="text/css" href="css/Style.css"> 
+    </head> 
+    <body id ="deviceorientationbdy"> 
+        <center>
+            <h2 id ="infohead">Your Device Compass</h2> 
+            <div id ="deviceorientation"> 
+                <div id="heading">
+                    <h3>Waiting for heading...</h3>
+                </div> 
+                <button onclick="startWatch();" class="btn-info" >Start Watching</button> 
+                <button onclick="stopWatch();" class="btn-info" >Stop Watching</button> 
+            </div>
+        </center> 
+        <center>
+            <div id ="goback">
+                <a href="index.html" class="goback" role="button">Go Back</a>
+                <br/>
+                <br/>
+            </div>
+        </center> 
+        <script src="js/deviceorientation.js" type="text/javascript"></script> 
+    </body> 
+    </html>

@@ -1,0 +1,27 @@
+<!DOCTYPE html> 
+<html> 
+    <head> 
+        <title>Acceleration Example</title> 
+        <script type="text/javascript" charset="utf-8" src="cordova.js"></script> 
+        <link rel="stylesheet" type="text/css" href="css/Style.css"> 
+    </head> 
+    <body id ="devicemotionbdy"> 
+        <center>
+            <h2 id ="infohead">Your Device Accelerometer</h2> 
+            <div id ="devicemotion"> 
+                <div id="accelerometer">
+                    <h3>Waiting for accelerometer...</h3>
+                </div> 
+                <button onclick="stopWatch();" class="btn-info" >Stop Watching</button>
+            </div>
+        </center> 
+        <center>
+            <div id ="goback">
+                <a href="index.html" class="goback" role="button">Go Back</a>
+                <br/>
+                <br/>
+            </div>
+        </center> 
+        <script src="js/devicemotion.js" type="text/javascript"></script> 
+    </body> 
+    </html>
